@@ -1,0 +1,51 @@
+PODS:
+  - amap_navi_flutter (0.0.1):
+    - AMapNavi-NO-IDFA (~> 11.2.000)
+    - Flutter
+  - AMapFoundation-NO-IDFA (1.9.0)
+  - AMapNavi-NO-IDFA (11.2.000):
+    - AMapFoundation-NO-IDFA (>= 1.9.0)
+  - app_settings (6.1.2):
+    - Flutter
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - permission_handler_apple (9.4.8):
+    - Flutter
+
+DEPENDENCIES:
+  - amap_navi_flutter (from `.symlinks/plugins/amap_navi_flutter/ios`)
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation-NO-IDFA
+    - AMapNavi-NO-IDFA
+
+EXTERNAL SOURCES:
+  amap_navi_flutter:
+    :path: ".symlinks/plugins/amap_navi_flutter/ios"
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+
+SPEC CHECKSUMS:
+  amap_navi_flutter: 7f6f25f01c6c2ddf0431c2b9cbf9f22b50f1859e
+  AMapFoundation-NO-IDFA: a2e3c895398d7ee757278e1a0a8f9359da4b146e
+  AMapNavi-NO-IDFA: d55b9b138c6e540f737c689975cae2c9dbd1026a
+  app_settings: 0341ec6daa4f0c50f5a421bf0ad7c36084db6e90
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  permission_handler_apple: 92d754bbaa7361d436db2d6c3c1c2a0fdcec462e
+
+PODFILE CHECKSUM: 35077858d461c599f199d1aaf46651563368f8d5
+
+COCOAPODS: 1.16.2
